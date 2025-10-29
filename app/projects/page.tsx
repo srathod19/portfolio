@@ -2,6 +2,14 @@ import ProjectCard from "../../components/ProjectCard";
 
 const projects = [
   {
+    title: "Testautomation X",
+    description:
+      "Built a scalable automation platform using Django Rest Framework to generate and manage software test cases. Integrated PostgreSQL for optimized performance and data integrity, implemented secure authentication and role-based access, and followed RESTful best practices to ensure clean separation between backend services and client interfaces. Enhanced testing efficiency, reliability, and maintainability across projects.",
+    tech: ["Next.js", "Python", "OpenAI"],
+    repo: "#",
+    demo: "https://testautomationx.com/",
+  },
+  {
     title: "Router Data Reporting System (Juniper Networks)",
     description:
       "Developed a scalable reporting system using Python and JavaScript for Juniper Networks to visualize and analyze router data. Optimized database performance and delivered real-time network insights.",
