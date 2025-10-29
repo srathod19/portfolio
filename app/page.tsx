@@ -8,10 +8,11 @@ export default function Home() {
     <section className="grid md:grid-cols-2 gap-8 items-center">
       <div>
         <AnimatedIntro
-          title={"Hi, I’m Sachin"}
-          description={
-            "AI/ML Developer — I build production-ready machine learning systems and full-stack web apps using Python, FastAPI, and Next.js."
-          }
+          title="Hi, I'm Sachin Rathod"
+          description="Backend Developer specializing in scalable REST APIs, AI-powered
+          automation, and cloud-ready systems using Python (Django, FastAPI),
+          React, and Node.js. With 2.5+ years' experience, I build intelligent,
+          data-driven solutions that deliver performance and reliability."
         />
         <div className="mt-6 flex gap-4">
           <Link
@@ -31,7 +32,7 @@ export default function Home() {
 
       <div className="flex justify-center">
         <div className="w-56 h-56 rounded-2xl overflow-hidden shadow-lg">
-          <Image src={avatar} alt="avatar" width={224} height={224} />
+          <Image src={avatar} alt="Sachin Rathod" width={224} height={224} />
         </div>
       </div>
     </section>

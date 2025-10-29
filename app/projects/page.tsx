@@ -2,18 +2,42 @@ import ProjectCard from "../../components/ProjectCard";
 
 const projects = [
   {
-    title: "AI Resume Matcher",
+    title: "Router Data Reporting System (Juniper Networks)",
     description:
-      "Rank resumes against job descriptions using embeddings and semantic search.",
-    tech: ["Python", "FastAPI", "Vector DB"],
+      "Developed a scalable reporting system using Python and JavaScript for Juniper Networks to visualize and analyze router data. Optimized database performance and delivered real-time network insights.",
+    tech: ["Python", "JavaScript", "PostgreSQL"],
     repo: "#",
     demo: "#",
   },
   {
-    title: "Chatbot (RAG)",
+    title: "InterviewAI — AI-Powered Interview Bot",
+    description:
+      "Built an AI-driven interview automation chatbot leveraging OpenAI API, React.js frontend, and FastAPI backend with real-time voice chat capabilities.",
+    tech: ["React.js", "FastAPI", "OpenAI API"],
+    repo: "#",
+    demo: "#",
+  },
+  {
+    title: "Ozar — AI Test Case Generator",
+    description:
+      "Created an AI-powered tool to auto-generate software test cases from Jira and Figma using OpenAI’s NLP capabilities, improving QA efficiency and consistency.",
+    tech: ["Python", "OpenAI API", "Jira API"],
+    repo: "#",
+    demo: "https://ozar.ai/",
+  },
+  {
+    title: "Inventory Management System",
+    description:
+      "Developed secure RESTful APIs with Node.js and MySQL, and built an admin panel using CodeIgniter with role-based access control.",
+    tech: ["Node.js", "MySQL", "CodeIgniter"],
+    repo: "#",
+    demo: "#",
+  },
+  {
+    title: "PDF Chatbot (RAG)",
     description: "Retrieval-augmented chatbot using LangChain and OpenAI.",
     tech: ["Next.js", "Python", "OpenAI"],
-    repo: "#",
+    repo: "https://github.com/srathod19/PDFChat-using-langchain-RAG",
     demo: "#",
   },
 ];
